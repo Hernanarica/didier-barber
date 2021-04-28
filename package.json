@@ -1,0 +1,17 @@
+{
+  "name": "javier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss build -o ./src/css/tailwind.css"
+  },
+  "keywords": [],
+  "author": "Hernán Arica <hernanaricammm@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "9.8.6",
+    "boxicons": "2.0.7",
+    "tailwindcss": "1.7.6"
+  }
+}

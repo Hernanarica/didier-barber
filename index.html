@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet" />
+      <script src="https://kit.fontawesome.com/38719968ae.js" crossorigin="anonymous"></script>
+      <link rel="shortcut icon" href="./src/assets/img/favicon.png" type="image/x-icon">
+      <link rel="stylesheet" href="./src/css/styles.css?271020" />
+      <link rel="stylesheet" href="./src/css/tailwind.css" />
+      <title>DidierBarder</title>
+   </head>
+   <body class="">
+      <header id="app" class="font-roboto-condensed z-10 bg-dark-100 fixed top-0 duration-300 w-full">
+         <h1 class="sr-only">Didierbarber | Barberia</h1>
+         <px-header class="max-w-wrapper mx-auto"></px-header>
+      </header>
+      <section id="hero">
+         <h2 class="hero__title text-gold-100 font-medium" id="inicio">
+            Bienvenido
+            <span class="hero__image-container"
+               ><img src="./src/assets/img/hero__logo.svg" alt="icono" class="h-12 hero__image"
+            /></span>
+            Didierbarber
+         </h2>
+         <p class="hero__text mt-4">Te invito a recorrer mi portfolio de cortes de pelo ideales para ti.</p>
+         <a href="#quienSoy" class="hero__btn bg-gold-100 px-4 py-2 mt-4 flex items-center font-roboto-condensed"
+            >Conocer más
+            <span
+               ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  class="h-4 mx-1"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+               >
+                  <path
+                     stroke-linecap="round"
+                     stroke-linejoin="round"
+                     stroke-width="2"
+                     d="M19 9l-7 7-7-7"
+                  /></svg></span
+         ></a>
+      </section>
+      <main>
+         <div class="whatsapp max-w-wrapper">
+            <a
+               id="Tel"
+               href="https://wa.me/541169332797"
+               class="flex items-center justify-center"
+               target="blank"
+               ><img src="./src/assets/img/whatsapp.svg" alt="whatsapp" class="h-8"
+            /></a>
+         </div>
+         <section id="me" class="bg-wenge-100 w-full">
+            <h2 class="sr-only" id="quienSoy">Sección quien soy</h2>
+            <div class="me font-roboto-condensed p-2">
+               <h3 class="me__title mt-3 mb-3 flex justify-center items-center text-white">
+                  <span class="me__separator"></span> Quien soy <span class="me__separator"></span>
+               </h3>
+               <div class="me__info text-white flex items-center mb-5">
+                  <div class="me__details w-3/4">
+                     Hola! Mi nombre es <strong>Javier</strong>, te doy la bienvenida y te presento mi
+                     <strong>servicio</strong> de corte de pelo a <strong>domicilio</strong> que te permite
+                     elegir el día y la hora que te sea más conveniente,
+                     <strong>sin moverte de tu casa.</strong> Soy barbero matriculado con
+                     <strong>experiencia</strong> en cortes clásicos modernos, y afeitado con máquina, tijera
+                     y navaja. <br /><br />
+                     <ul class="Tablet:border-l-2  Tablet:border-gold-100 Tablet:px-3">
+                        <li><strong>Horario de atención:</strong> Lun a Vier 10 a 20hs.</li>
+                        <li><strong>Forma de pago:</strong> Efectivo o MercadoPago.</li>
+                        <li><strong>Modalidad:</strong> A domicilio con reserva previa.</li>
+                     </ul>
+                  </div>
+                  <div class="me__image w-1/4 flex justify-center items-center">
+                     <img src="./src/assets/img/me__image.svg" alt="icono barber" class="h-32 mob-L:h-40" />
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="knowledge" class="bg-gray-100 p-3">
+            <h2 class="sr-only" id="conocimientos">Sección conocimientos</h2>
+            <div class="knowledge max-w-wrapper m-auto">
+               <h3
+                  class="me__title font-roboto-condensed font-medium mt-2 mb-5 flex justify-center items-center text-dark-100"
+               >
+                  <span class="knowledge__separator"></span> Conocimientos
+                  <span class="knowledge__separator"></span>
+               </h3>
+               <div class="card__container flex justify-around flex-wrap">
+                  <div
+                     class="card mx-1 max-w-xs border border-gray-300 p-3 shadow-sm laptop-S:shadow-lg mb-6 rounded-md select-none"
+                  >
+                     <div class="card__icon">
+                        <img
+                           src="./src/assets/img/degrade_bajo.jpg"
+                           alt="degrade bajo"
+                           class="h-32 m-auto rounded-full"
+                        />
+                     </div>
+                     <div class="card__details">
+                        <h3 class="card__title text-center p-1">Degrade bajo</h3>
+                        <p class="card__text font-roboto-condensed text-dark-100 font-normal px-4">
+                           Consiste en q el degrade tenga un centímetro a centímetro y medio de la oreja, la
+                           cual implica q en ese centímetro y medio vaya el fade con navaja.
+                        </p>
+                     </div>
+                  </div>
+                  <div
+                     class="card mx-1 max-w-xs border border-gray-300 p-3 shadow-sm laptop-S:shadow-lg mb-6 rounded-md select-none"
+                  >
+                     <div class="card__icon">
+                        <img
+                           src="./src/assets/img/degrade_medio.jpg"
+                           alt="degrade medio"
+                           class="h-32 m-auto rounded-full"
+                        />
+                     </div>
+                     <div class="card__details">
+                        <h3 class="card__title text-center p-1">Degrade medio</h3>
+                        <p class="card__text font-roboto-condensed text-dark-100 font-normal px-4">
+                           3cm de la oreja más o menos es lo q llevaría el degradé incluyendo la navaja o en
+                           cero.
+                        </p>
+                     </div>
+                  </div>
+                  <div
+                     class="card mx-1 max-w-xs border border-gray-300 p-3 shadow-sm laptop-S:shadow-lg mb-6 rounded-md select-none"
+                  >
+                     <div class="card__icon">
+                        <img
+                           src="./src/assets/img/degrade_alto.jpg"
+                           alt="degrade alto"
+                           class="h-32 m-auto rounded-full"
+                        />
+                     </div>
+                     <div class="card__details">
+                        <h3 class="card__title text-center p-1">Degrade alto</h3>
+                        <p class="card__text font-roboto-condensed text-dark-100 font-normal px-4">
+                           En este estilo de corte el fade es alto hasta donde el cliente prefiera, mayormente
+                           siempre va casi a la distancia del remolino de la parte de atrás.
+                        </p>
+                     </div>
+                  </div>
+                  <div
+                     class="card mx-1 max-w-xs border border-gray-300 p-3 shadow-sm laptop-S:shadow-lg mb-6 rounded-md select-none"
+                  >
+                     <div class="card__icon">
+                        <img
+                           src="./src/assets/img/degrade_dibujo.jpg"
+                           alt="degrade con dibujo"
+                           class="h-32 m-auto rounded-full"
+                        />
+                     </div>
+                     <div class="card__details">
+                        <h3 class="card__title text-center p-1">Degrade con dibujo</h3>
+                        <p class="card__text font-roboto-condensed text-dark-100 font-normal px-4">
+                           Es un corte tradicional el cual se puede combinar con un poco del estilo moderno.
+                        </p>
+                     </div>
+                  </div>
+                  <div
+                     class="card mx-1 max-w-xs border border-gray-300 p-3 shadow-sm laptop-S:shadow-lg mb-6 rounded-md select-none"
+                  >
+                     <div class="card__icon">
+                        <img
+                           src="./src/assets/img/clasico.jpg"
+                           alt="corte clasico"
+                           class="h-32 m-auto rounded-full"
+                        />
+                     </div>
+                     <div class="card__details">
+                        <h3 class="card__title text-center p-1">Clasicos</h3>
+                        <p class="card__text font-roboto-condensed text-dark-100 font-normal px-4">
+                           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi, in. Sed officiis
+                           omnis, ab mollitia rem magnam ad ipsum recusandae.
+                        </p>
+                     </div>
+                  </div>
+                  <div
+                     class="card mx-1 max-w-xs border border-gray-300 p-3 shadow-sm laptop-S:shadow-lg mb-6 rounded-md select-none"
+                  >
+                     <div class="card__icon">
+                        <img
+                           src="./src/assets/img/corte_v.jpg"
+                           alt="corte en v"
+                           class="h-32 m-auto rounded-full"
+                        />
+                     </div>
+                     <div class="card__details">
+                        <h3 class="card__title text-center p-1">Corte en V</h3>
+                        <p class="card__text font-roboto-condensed text-dark-100 font-normal px-4">
+                           La gran mayoría de cortes en las terminaciones de la parte de atrás el degradé es
+                           común, en este caso la v iría como el cliente prefiera.
+                        </p>
+                     </div>
+                  </div>
+                  <div
+                     class="card mx-1 max-w-xs border border-gray-300 p-3 shadow-sm laptop-S:shadow-lg mb-6 rounded-md select-none"
+                  >
+                     <div class="card__icon">
+                        <img
+                           src="./src/assets/img/desvanesido.jpg"
+                           alt="corte desvanesido"
+                           class="h-32 m-auto rounded-full"
+                        />
+                     </div>
+                     <div class="card__details">
+                        <h3 class="card__title text-center p-1">Desvanecido</h3>
+                        <p class="card__text font-roboto-condensed text-dark-100 font-normal px-4">
+                           Es un desvanecido q se trabaja mucho en las patillas y en la parte de atrás, así el
+                           corte obtenga la forma q se desea.
+                        </p>
+                     </div>
+                  </div>
+                  <div
+                     class="card mx-1 max-w-xs border border-gray-300 p-3 shadow-sm laptop-S:shadow-lg mb-6 rounded-md select-none"
+                  >
+                     <div class="card__icon">
+                        <img
+                           src="./src/assets/img/socavado.jpg"
+                           alt="corte socavado"
+                           class="h-32 m-auto rounded-full"
+                        />
+                     </div>
+                     <div class="card__details">
+                        <h3 class="card__title text-center p-1">Socavado</h3>
+                        <p class="card__text font-roboto-condensed text-dark-100 font-normal px-4">
+                           Puede hacerse un degradé o no, mientras en la parte de arriba mantenga el largo,
+                           así no pierde la forma del corte.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="works" class="text-white bg-wenge-100 pt-3">
+            <nav class="nav mt-3 mb-4" id="trabajos">
+               <ul
+                  class="nav__list font-roboto-condensed font-medium m-auto p-3 flex max-w-lg justify-between"
+               >
+                  <li class="nav__item"><a href="#" class="px-3 mob-M:p-4 py-2" id="todos">Todos</a></li>
+                  <li class="nav__item"><a href="#" class="px-3 mob-M:p-4 py-2" id="ultimos">Últimos</a></li>
+                  <li class="nav__item">
+                     <a href="#" class="px-3 mob-M:p-4 py-2" id="clasicos">Clasicos</a>
+                  </li>
+                  <li class="nav__item">
+                     <a href="#" class="px-3 mob-M:p-4 py-2" id="modernos">Modernos</a>
+                  </li>
+               </ul>
+            </nav>
+            <div class="photos flex justify-around flex-wrap max-w-wrapper m-auto">
+               <div class="photos__container rounded-full max-w-xs m-auto mb-6" data-estilo="ultimo">
+                  <img
+                     src="./src/assets/img/ultimos.jpg"
+                     alt="corte"
+                     class="photos__image w-56 rounded-full overflow-hidden m-auto"
+                  />
+               </div>
+               <div class="photos__container rounded-full max-w-xs m-auto mb-6" data-estilo="ultimo">
+                  <img
+                     src="./src/assets/img/ultimos1.jpg"
+                     alt="corte"
+                     class="photos__image w-56 rounded-full overflow-hidden m-auto"
+                  />
+               </div>
+               <div class="photos__container rounded-full max-w-xs m-auto mb-6" data-estilo="ultimo">
+                  <img
+                     src="./src/assets/img/ultimos2.jpg"
+                     alt="corte"
+                     class="photos__image w-56 rounded-full overflow-hidden m-auto"
+                  />
+               </div>
+               <div class="photos__container rounded-full max-w-xs m-auto mb-6" data-estilo="moderno">
+                  <img
+                     src="./src/assets/img/moderno.jpg"
+                     alt="corte"
+                     class="photos__image w-56 rounded-full overflow-hidden m-auto"
+                  />
+               </div>
+               <div class="photos__container rounded-full max-w-xs m-auto mb-6" data-estilo="moderno">
+                  <img
+                     src="./src/assets/img/moderno2.jpg"
+                     alt="corte"
+                     class="photos__image w-56 rounded-full overflow-hidden m-auto"
+                  />
+               </div>
+               <div class="photos__container rounded-full max-w-xs m-auto mb-6" data-estilo="moderno">
+                  <img
+                     src="./src/assets/img/moderno3.jpg"
+                     alt="corte"
+                     class="photos__image w-56 rounded-full overflow-hidden m-auto"
+                  />
+               </div>
+               <div class="photos__container rounded-full max-w-xs m-auto mb-6" data-estilo="moderno">
+                  <img
+                     src="./src/assets/img/moderno4.jpg"
+                     alt="corte"
+                     class="photos__image w-56 rounded-full overflow-hidden m-auto"
+                  />
+               </div>
+               <div class="photos__container rounded-full max-w-xs m-auto mb-6" data-estilo="moderno">
+                  <img
+                     src="./src/assets/img/moderno6.jpg"
+                     alt="corte"
+                     class="photos__image w-56 rounded-full overflow-hidden m-auto"
+                  />
+               </div>
+               <div class="photos__container rounded-full max-w-xs m-auto mb-6" data-estilo="moderno">
+                  <img
+                     src="./src/assets/img/moderno7.jpg"
+                     alt="corte"
+                     class="photos__image w-56 rounded-full overflow-hidden m-auto"
+                  />
+               </div>
+               <div class="photos__container rounded-full max-w-xs m-auto mb-6" data-estilo="clasico">
+                  <img
+                     src="./src/assets/img/clasico1.jpg"
+                     alt="corte"
+                     class="photos__image w-56 rounded-full overflow-hidden m-auto"
+                  />
+               </div>
+               <div class="photos__container rounded-full max-w-xs m-auto mb-6" data-estilo="clasico">
+                  <img
+                     src="./src/assets/img/clasico2.jpg"
+                     alt="corte"
+                     class="photos__image w-56 rounded-full overflow-hidden m-auto"
+                  />
+               </div>
+               <div class="photos__container rounded-full max-w-xs m-auto mb-6" data-estilo="clasico">
+                  <img
+                     src="./src/assets/img/clasico3.jpg"
+                     alt="corte"
+                     class="photos__image w-56 rounded-full overflow-hidden m-auto"
+                  />
+               </div>
+               <div class="photos__container rounded-full max-w-xs m-auto mb-6" data-estilo="clasico">
+                  <img
+                     src="./src/assets/img/clasico4.jpg"
+                     alt="corte"
+                     class="photos__image w-56 rounded-full overflow-hidden m-auto"
+                  />
+               </div>
+            </div>
+         </section>
+         <section id="testimonials" class="bg-wenge-100 font-roboto-condensed pt-4">
+            <h2 class="sr-only">Sección testimonios</h2>
+            <h3 class="me__title font-medium flex justify-center items-center text-white mb-6">
+               <span class="me__separator"></span> Testimonios <span class="me__separator"></span>
+            </h3>
+            <div class="max-w-wrapper m-auto">
+               <div class="testimonials__container flex justify-around flex-wrap">
+                  <article class="testimonial_item bg-gray-100 max-w-sm rounded-md p-3 mb-4">
+                     <div class="testimonial__user flex items-center">
+                        <img
+                           src="./src/assets/img/user1.jpg"
+                           alt="josue pedraza"
+                           class="testimonial__image h-16 rounded-full"
+                        />
+                        <p class="testimonial__name text-dark-100 font-bold ml-5">Josue Pedraza</p>
+                     </div>
+                     <p class="testimonial__description text-dark-100 font-normal p-2">
+                        Buen servicio muy buena atención, recomendado!!! 👍👍👍
+                     </p>
+                  </article>
+                  <article class="testimonial_item bg-gray-100 max-w-sm rounded-md p-3 mb-4">
+                     <div class="testimonial__user flex items-center">
+                        <img
+                           src="./src/assets/img/user2.jpg"
+                           alt="Rosa valderrama"
+                           class="testimonial__image h-16 rounded-full"
+                        />
+                        <p class="testimonial__name text-dark-100 font-bold ml-5">Rosa Valderrama</p>
+                     </div>
+                     <p class="testimonial__description text-dark-100 font-normal p-2">
+                        Muy recomendable, le corto a mis hijos y los dejó muy bien ❤.
+                     </p>
+                  </article>
+                  <article class="testimonial_item bg-gray-100 max-w-sm rounded-md p-3 mb-4">
+                     <div class="testimonial__user flex items-center">
+                        <img
+                           src="./src/assets/img/user3.jpg"
+                           alt="Elkin Blanco"
+                           class="testimonial__image h-16 rounded-full"
+                        />
+                        <p class="testimonial__name text-dark-100 font-bold ml-5">Elkin Blanco</p>
+                     </div>
+                     <p class="testimonial__description text-dark-100 font-normal p-2">
+                        Buen servicio y excelente forma de cortar!
+                        No se lo piensen háganse un corte con él. 💪🏻
+                     </p>
+                  </article>
+                  <article class="testimonial_item bg-gray-100 max-w-sm rounded-md p-3 mb-4">
+                     <div class="testimonial__user flex items-center">
+                        <img
+                           src="./src/assets/img/user4.jpg"
+                           alt="Cesar Ibanez"
+                           class="testimonial__image h-16 rounded-full"
+                        />
+                        <p class="testimonial__name text-dark-100 font-bold ml-5">Cesar Ibanez</p>
+                     </div>
+                     <p class="testimonial__description text-dark-100 font-normal p-2">
+                        Muy recomendable, Excelentes cortes y buena atención!!!👍👍👏👏
+                     </p>
+                  </article>
+                  <article class="testimonial_item bg-gray-100 max-w-sm rounded-md p-3 mb-4">
+                     <div class="testimonial__user flex items-center">
+                        <img
+                           src="./src/assets/img/user5.jpg"
+                           alt="Kelly Acuña"
+                           class="testimonial__image h-16 rounded-full"
+                        />
+                        <p class="testimonial__name text-dark-100 font-bold ml-5">Kelly Acuña</p>
+                     </div>
+                     <p class="testimonial__description text-dark-100 font-normal p-2">
+                        Muy recomendable 10 puntos y es una excelente persona.
+                     </p>
+                  </article>
+                  <article class="testimonial_item bg-gray-100 max-w-sm rounded-md p-3 mb-4">
+                     <div class="testimonial__user flex items-center">
+                        <img
+                           src="./src/assets/img/user6.jpg"
+                           alt="Didi Velasquez"
+                           class="testimonial__image h-16 rounded-full"
+                        />
+                        <p class="testimonial__name text-dark-100 font-bold ml-5">Didi Velasquez</p>
+                     </div>
+                     <p class="testimonial__description text-dark-100 font-normal p-2">
+                        excelente atención lo recomiendo 👏 todo de 10, muy buen servicio.
+                     </p>
+                  </article>
+                  <article class="testimonial_item bg-gray-100 max-w-sm rounded-md p-3 mb-4">
+                     <div class="testimonial__user flex items-center">
+                        <img
+                           src="./src/assets/img/user7.jpg"
+                           alt="Mariela Morales"
+                           class="testimonial__image h-16 rounded-full"
+                        />
+                        <p class="testimonial__name text-dark-100 font-bold ml-5">Mariela Morales</p>
+                     </div>
+                     <p class="testimonial__description text-dark-100 font-normal p-2">
+                        Le cortó el pelo a mi amigo ricardo y ademas de buen peluquero nos parecio muy buena gente!!!!
+                     </p>
+                  </article>
+                  <article class="testimonial_item bg-gray-100 max-w-sm rounded-md p-3 mb-4">
+                     <div class="testimonial__user flex items-center">
+                        <img
+                           src="./src/assets/img/user8.jpg"
+                           alt="Pilar Sanchez"
+                           class="testimonial__image h-16 rounded-full"
+                        />
+                        <p class="testimonial__name text-dark-100 font-bold ml-5">Pilar Sanchez</p>
+                     </div>
+                     <p class="testimonial__description text-dark-100 font-normal p-2">
+                        Buen servicio dado, lo recomiendo, 100 % garantizado. Dios te bendiga. 😁
+                     </p>
+                  </article>
+                  <article class="testimonial_item bg-gray-100 max-w-sm rounded-md p-3 mb-4">
+                     <div class="testimonial__user flex items-center">
+                        <img
+                           src="./src/assets/img/user9.jpg"
+                           alt="Lorena Sanchez"
+                           class="testimonial__image h-16 rounded-full"
+                        />
+                        <p class="testimonial__name text-dark-100 font-bold ml-5">Lorena Sanchez</p>
+                     </div>
+                     <p class="testimonial__description text-dark-100 font-normal p-2">
+                        Servicio eficiente y garantizado, 100 % recomendado, bendiciones joven, un fuerte abrazo. 🤗😁😉
+                     </p>
+                  </article>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer id="contacto" class="bg-darkLight-100 text-white">
+         <div class="footer max-w-wrapper m-auto p-3">
+            <div class="footer__social text-gold-100">
+               <h5 class="font-medium text-lg pl-3 mb-1">Redes sociales</h5>
+               <ul class="flex justify-around p-2 w-40">
+                  <li>
+                     <a href="https://www.facebook.com/Didier5320" target="blank"
+                        ><i class="text-4xl fab fa-facebook"></i
+                     ></a>
+                  </li>
+                  <li>
+                     <a href="https://www.instagram.com/didiersanchex/" target="blank"
+                        ><i class="text-4xl fab fa-instagram"></i
+                     ></a>
+                  </li>
+                  <li>
+                     <a href="#" target="blank"><i class="text-4xl fab fa-youtube"></i></a>
+                  </li>
+               </ul>
+            </div>
+            <div class="foooter__contact text-gold-100 m-3">
+               <h5 class="font-medium text-lg pl-1 mb-1">Contacto</h5>
+               <ul class="flex flex-col p-1 space-y-2">
+                  <li><i class="fas fa-map-marker-alt mr-2"></i> Cachimayo 355 (Caballito).</li>
+                  <li><i class="fas fa-concierge-bell mr-2"></i> Lun a vier de 10 a 20hs.</li>
+               </ul>
+            </div>
+            <div class="footer__me flex items-center justify-center p-2">
+               <img src="./src/assets/img/javier.jpg" alt="Javier Sanchez" class="h-10 rounded-full" />
+               <span class="ml-3">Javier sanchez</span>
+            </div>
+         </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <script src="./src/js/header.js"></script>
+      <script src="./src/js/scroll.js"></script>
+      <script src="./src/js/index.js"></script>
+      <script src="./src/js/filter.js"></script>
+   </body>
+</html>
